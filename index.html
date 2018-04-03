@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--Import Google Icon Font-->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!--Import materialize.css-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+		<!--Let browser know website is optimized for mobile-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		
+		<style>
+			footer{position:fixed; bottom:0; left:0; right:0;}
+			.page-footer{padding-top:0px;}
+		</style>
+	</head>
+	<body>
+		<nav class="nav-extended">
+			<div class="nav-wrapper">
+				<a href="#" class="brand-logo center">Materializecss Mega Menu</a>
+			</div>
+			<div class="nav-wrapper">
+				<ul>
+					<li><a href="#test1">Test 1</a></li>
+					<li><a class="active" href="#test2">Test 2</a></li>
+					<li>
+						<a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown 1<i class="material-icons right">arrow_drop_down</i></a>
+						<ul id="dropdown1" class="dropdown-content full-width">
+							<!-- Row Begin -->
+							<div class="row">
+								<div class="col s3 m3 l3 lft-border">
+									<!-- List Item -->
+									<li class="title"><a href="#">ELECTRONICS</a></li>
+									<li><a href="#" class="hvr-sweep-to-right">Smart Phone</a></li>
+									<li><a href="#" class="hvr-sweep-to-right">Laptop</a></li>
+									<li><a href="#" class="hvr-sweep-to-right">LCD/LED TV</a></li>
+									<li><a href="#" class="hvr-sweep-to-right">Mac Computer</a></li>
+								</div>
+								<div class="col s3 m3 l3 mid-border">
+									<!-- List Item -->
+									<li class="title"><a href="#">MEN WEAR</a></li>
+									<li><a href="#" class="hvr-sweep-to-right">Formal Shirt</a></li>
+									<li><a href="#" class="hvr-sweep-to-right">Denim Jeans</a></li>
+									<li><a href="#" class="hvr-sweep-to-right">Sport Shoes</a></li>
+									<li><a href="#" class="hvr-sweep-to-right">Duke Tshirt</a></li>
+								</div>
+								<div class="col s3 m3 l3 mid-border">
+									<!-- List Item -->
+									<li class="title"><a href="#">WOMEN WEAR</a></li>
+									<li><a href="#" class="hvr-sweep-to-right">Fancy Tops</a></li>
+									<li><a href="#" class="hvr-sweep-to-right">Western Wear</a></li>
+									<li><a href="#" class="hvr-sweep-to-right">Beauty</a></li>
+									<li><a href="#" class="hvr-sweep-to-right">Personal Care</a></li>
+								</div>
+								<div class="col s3 m3 l3 rgt-border">
+									<!-- List Item -->
+									<li class="title"><a href="#">BABY &amp; KIDS</a></li>
+									<li><a href="#" class="hvr-sweep-to-right">Toy Game</a></li>
+									<li><a href="#" class="hvr-sweep-to-right">Kids Cloth</a></li>
+									<li><a href="#" class="hvr-sweep-to-right">School Supplie</a></li>
+									<li><a href="#" class="hvr-sweep-to-right">Fancy Jeans</a></li>
+								</div>
+							</div>
+						</ul>
+					</li>
+					<li>
+						<a class="dropdown-button" href="#!" data-activates="dropdown2">Dropdown 2<i class="material-icons right">arrow_drop_down</i></a>
+						<ul id="dropdown2" class="dropdown-content full-width">
+							<!-- Row Begin -->
+							<div class="row">
+								<div class="col s3 m3 l3 mid-border">
+									<!-- List Item -->
+									<li class="title"><a href="#">MEN WEAR</a></li>
+									<li><a href="#" class="hvr-sweep-to-right">Formal Shirt</a></li>
+									<li><a href="#" class="hvr-sweep-to-right">Denim Jeans</a></li>
+									<li><a href="#" class="hvr-sweep-to-right">Sport Shoes</a></li>
+									<li><a href="#" class="hvr-sweep-to-right">Duke Tshirt</a></li>
+								</div>
+								<div class="col s3 m3 l3 lft-border">
+									<!-- List Item -->
+									<li class="title"><a href="#">ELECTRONICS</a></li>
+									<li><a href="#" class="hvr-sweep-to-right">Smart Phone</a></li>
+									<li><a href="#" class="hvr-sweep-to-right">Laptop</a></li>
+									<li><a href="#" class="hvr-sweep-to-right">LCD/LED TV</a></li>
+									<li><a href="#" class="hvr-sweep-to-right">Mac Computer</a></li>
+								</div>
+								<div class="col s3 m3 l3 rgt-border">
+									<!-- List Item -->
+									<li class="title"><a href="#">BABY &amp; KIDS</a></li>
+									<li><a href="#" class="hvr-sweep-to-right">Toy Game</a></li>
+									<li><a href="#" class="hvr-sweep-to-right">Kids Cloth</a></li>
+									<li><a href="#" class="hvr-sweep-to-right">School Supplie</a></li>
+									<li><a href="#" class="hvr-sweep-to-right">Fancy Jeans</a></li>
+								</div>
+								<div class="col s3 m3 l3 mid-border">
+									<!-- List Item -->
+									<li class="title"><a href="#">WOMEN WEAR</a></li>
+									<li><a href="#" class="hvr-sweep-to-right">Fancy Tops</a></li>
+									<li><a href="#" class="hvr-sweep-to-right">Western Wear</a></li>
+									<li><a href="#" class="hvr-sweep-to-right">Beauty</a></li>
+									<li><a href="#" class="hvr-sweep-to-right">Personal Care</a></li>
+								</div>
+							</div>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<footer class="page-footer">
+			<div class="footer-copyright">
+				<div class="container center">
+					Materializecss Mega Menu
+				</div>
+			</div>
+		</footer>
+		<!--Import jQuery before materialize.js-->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+		<script type="text/javascript" src="js/mega-menu.js"></script>
+		<script>
+			$('.dropdown-button').megaMenu({
+				inDuration: 300,
+				outDuration: 150,
+				hover: true
+			});
+		</script>
+	</body>
+</html>
